@@ -95,11 +95,11 @@ def start():
       for i in range(packs):
         s.send(r)
         u += 1
-        print("\033[92m[" +str(u)+ "]  \033[32m[BLACK ARMY]  \033[36mSent attack  \033[97mTarget: [" +ip+ "]  \033[0m")
-        print("\033[93m[" +str(u)+ "]  \033[33m[BLACK ARMY]  \033[96mSent attack  \033[92mTarget: [" +ip+ "]  \033[0m")
-        print("\033[94m[" +str(u)+ "]  \033[34m[BLACK ARMY]  \033[36mSent attack  \033[93mTarget: [" +ip+ "]  \033[0m")
-        print("\033[95m[" +str(u)+ "]  \033[35m[BLACK ARMY]  \033[93mSent attack  \033[36mTarget: [" +ip+ "]  \033[0m")
-        print("\033[96m[" +str(u)+ "]  \033[36m[BLACK ARMY]  \033[37mSent attack  \033[31mTarget: [" +ip+ "]  \033[0m")
+        print("\033[92m[" +str(u)+ "]  \033[32m[BLACK ARMY]  \033[36mSent attack  \033[97mTarget::.." +ip+ "\033[0m")
+        print("\033[93m[" +str(u)+ "]  \033[33m[BLACK ARMY]  \033[96mSent attack  \033[92mTarget:.." +ip+ "\033[0m")
+        print("\033[94m[" +str(u)+ "]  \033[34m[BLACK ARMY]  \033[36mSent attack  \033[93mTarget::." +ip+ "\033[0m")
+        print("\033[95m[" +str(u)+ "]  \033[35m[BLACK ARMY]  \033[93mSent attack  \033[36mTarget::.." +ip+ "\033[0m")
+        print("\033[96m[" +str(u)+ "]  \033[36m[BLACK ARMY]  \033[37mSent attack  \033[31mTarget::..." +ip+ "\033[0m")
         
     except:
         s.close()
