@@ -1,1 +1,4 @@
-# https://github.com/panjihitam855/BlackArmy.git
+# Black Army
+# dedicated
+# for F4L1571π1∆N people
+# 
